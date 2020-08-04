@@ -41,7 +41,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'easymotion/vim-easymotion'
     " Add some color
     Plug 'norcalli/nvim-colorizer.lua'
-    Plug 'junegunn/rainbow_parentheses.vim'
+    " Plug 'junegunn/rainbow_parentheses.vim'
+
+    Plug 'luochen1990/rainbow'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Cool Icons
@@ -96,6 +98,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'metakirby5/codi.vim'
     " Vim Wiki
     " Plug 'https://github.com/vimwiki/vimwiki.git'
+    Plug 'puremourning/vimspector'
   endif
 
 
